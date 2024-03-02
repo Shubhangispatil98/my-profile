@@ -73,7 +73,20 @@
         font-family: "Roboto", sans-serif;
        
       }
-      
+      #listSummary li{
+        list-style-type: none;
+      }
+      #listSummary li::marker{
+        content: "✍️";
+      }
+      .roles
+      {
+        list-style-type:lower-alpha ;
+      }
+      #projectDesc::selection
+      {
+        background-color: orange;
+      }
       #education
       {
         margin-bottom: 20px;
@@ -164,9 +177,29 @@
       <hr>
 
        <!-- Project Section -->
-      <section id="project">
+    <section id="project">
        
-        
+    <h2>Project Details</h2>
+    <hr>
+            <p><strong>Name: <u>Student Management</u></strong></p>
+            <p><strong><u>Environment:</u></strong> <mark>Angular,React,Java,JavaScript,HTML,CSS,Bootstrap,GitHub,Agile and JIRA</mark></p>
+            <p><strong>Team Size</strong>:06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Duration:</strong> 2021-1 <sup>st</sup>-July till <u>present</u></p>
+           <p id="projectDesc"><strong>Project Description:</strong> This Project is mainly used for student management in colleges,where it helps to manage student record like <br>
+           student registration,student update,and to see all the list of academic activities like score card and attendance
+    <hr>
+       <p><h2><strong> Roles and Responsibilities</strong></h2>
+        <ol class="roles">
+          <li>Designed and Implemented the user interface using HTML5 and CSS3</li>
+          <li>Work closely with backend developers for code integration</li>
+          <li>Identifying and troublshooting issues in front end codebase</li>
+          <li>Worked in GIT as a version control</li>
+          <li>Used JIRA for bug tracking</li>
+          <li>Implemented project using Agile SCRUM methodology,involved in daily stand up calls,sprint retrospective meetings </li>
+          <li>involved in fixing technical issues in production environment</li>
+        </ol>
+      </p>
+
+</p>
       </section>
      
 
