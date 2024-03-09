@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        textarea
+        {
+            border-radius: 8px;
+            margin-bottom: 10px;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        #button
+        {
+          margin-left: 225px;  
+          margin-top: 10px; 
+          margin-bottom: 10px; 
+          border-radius:8px;
+        }
+        
+        #form
+        {
+            border:solid;
+            border-width: 1px;
+            padding-top: 10px;
+            padding-left: 10px;
+            
+        }
+        #Subs
+        {
+           margin-top: 20px;
+        }
+        #email
+        {
+            padding-top: 20px;
+            border-radius: 8px;
+        }
+        #text
+        {
+            margin-bottom: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form id="form">
+        <label id="Subs">Subscriber</label>
+        <hr>
+        <textarea name="" id="" cols="40" rows="9" style="color: white;background-color:#00BFFF">We're sorry to see you go, but hey, no hard feelings, hopefully we will see you back one day. Please fill in your email address in order to unsubscribe from the list. You will receive an email to confirm your unsubscription ,just to make sure this is not an accident or somebody else tries to unsubscribe you.
+        </textarea> <br>
+        <label id="email">Email <span style="color: red;">*</span></label> <br>
+        <input type="email" style="width: 25%;" id="text"><br>
+        <label>Unsubscribe reason</label> <br>
+        <textarea name="" id="textarea" cols="40" rows="3" placeholder="Unsubscribe reason"></textarea> <br> <hr>
+        <button id="button">Unsubscribe</button>
+    </form>
+</body>
+</html>
